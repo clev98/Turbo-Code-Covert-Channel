@@ -6,7 +6,7 @@ This is an attempt at a Turbo Code based covert channel, simulated in MATLAB's L
 
 This project generates pseudorandom overt and covert messages. The covert message is then embedded into the output of the Turbo Encoder prior to transmission. An informed uplink will intercept the transmission and extract the message. This will require knowledge of the scrambling sequence. The embedded message will be treated as a series of bit errors and corrected at the uninformed receiver. 
 
-A full writeup can be found at clev dot news.
+A full writeup can be found at [clev dot news](https://www.clev.news/posts/forward_error_correction_based_covert_channels/).
 
 # File Structure
 - LTESim.m - Main file. Run from here.
